@@ -55,7 +55,7 @@ function App() {
    }
 
    function noImposters(index){
-       if(winMessage){
+       if(winMessage){// win message
         return toast("nope, not allowed, Game is Over")
        }
 
