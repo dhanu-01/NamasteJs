@@ -48,7 +48,7 @@ function App() {
       }
 
       //draw condition
-      else if(tikArray.indexOf("")== -1 || true){
+      else if(tikArray.indexOf("")== -1 && true){
           setWinMessage(`Its a draw`)
       }
 
